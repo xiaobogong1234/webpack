@@ -1,0 +1,20 @@
+<div ng-controller="homeaboutCtrl">
+    <a ng-click="statego()">home页</a>
+    <h4>字体</h4>
+    <br>
+    <i class="fa fa-thermometer-0"></i>
+    <i class="fa fa-address-book"></i>
+    <i class="fa fa-bar-chart"></i>
+    <h4>jquery</h4>
+    <br>
+    <input ng-model="name" placeholder="检测应用controllerAs用法" />
+    <button ng-click="test()">测试jquery</button>
+    <h4>我是ng-include</h4>
+    <br>
+    <div ng-include="'home.new.html'" class="sa"></div>
+    <h4>我是directive</h4>
+    <br>
+    <feng-title></feng-title>
+    <h4>我是filter</h4>
+    <br> {{name|arrfilter}}
+</div>
