@@ -21,5 +21,6 @@ angular.module('app', [
             function($templateCache) {
                 // Put in cache the files that are ng-include'd in templates
                 $templateCache.put('home.new.html', require('../view/home/about/home.new.html'));
+                $templateCache.put('home.view.html', require('../view/home/about/home.view.html'));
             }
         ])

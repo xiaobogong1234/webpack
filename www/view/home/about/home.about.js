@@ -18,5 +18,8 @@ module.exports = angular.module("app.home").controller("homeaboutCtrl", function
 }).controller("homenewCtrl", function(arrfun, tablefun, $scope, $state) {
     //测试ng-include
     $scope.data = "我是include";
+}).controller("homeviewCtrl", function(arrfun, tablefun, $scope, $state) {
+    //测试ng-include
+    $scope.data = "我是include2";
 }).
 name;
